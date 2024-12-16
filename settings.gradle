@@ -1,0 +1,3 @@
+include ':opentok-android-sdk-2.20.1'
+include ':app'
+rootProject.name = "KLABR"

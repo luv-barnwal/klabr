@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1029900156633",
+    "firebase_url": "https://klabr-c3487-default-rtdb.firebaseio.com",
+    "project_id": "klabr-c3487",
+    "storage_bucket": "klabr-c3487.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029900156633:android:71105a184ea139ea9c88c8",
+        "android_client_info": {
+          "package_name": "com.luv.klabr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029900156633-52svc24aomnj4ap5ve7dpm13r6q8aghd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luv.klabr",
+            "certificate_hash": "4f76f302d10d03445927aa8a23add46821755e8e"
+          }
+        },
+        {
+          "client_id": "1029900156633-7081kjts56mdnih6tiluqh0crfs1pgp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Dn2_7JJCsoYEeOG96I0rA7qcKcM5CFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029900156633-7081kjts56mdnih6tiluqh0crfs1pgp2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

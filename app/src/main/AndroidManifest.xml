@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luv.klabr">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity android:name=".LibraryActivity"
+            android:exported="true"/>
+        <activity android:name=".GroupMessagesActivity"
+            android:exported="true"/>
+        <activity android:name=".AddMembersActivity"
+            android:exported="true"/>
+        <activity android:name=".GroupChatsActivity"
+            android:exported="true"/>
+        <activity android:name=".ChatActivity"
+            android:exported="true"/>
+        <activity android:name=".VideoChatActivity"
+            android:exported="true"/>
+        <activity android:name=".CallingActivity"
+            android:exported="true"/>
+        <activity android:name=".ProfileActivity"
+            android:exported="true"/>
+        <activity android:name=".FindPeopleActivity"
+            android:exported="true"/>
+        <activity android:name=".NotificationsActivity"
+            android:exported="true"/>
+        <activity android:name=".SettingsActivity"
+            android:exported="true"/>
+        <activity android:name=".ContactsActivity"
+            android:exported="true"/>
+        <activity android:name=".RegistrationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
